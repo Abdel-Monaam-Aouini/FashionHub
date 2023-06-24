@@ -22,7 +22,7 @@
     "react-query": "^3.39.3",
     "react-router-dom": "^6.11.1",
     "react-toastify": "^9.1.2",
-    "tailwind-scrollbar": "^3.0.0"
+    "tailwind-scrollbar": "^3.0.4"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^1.0.0",
