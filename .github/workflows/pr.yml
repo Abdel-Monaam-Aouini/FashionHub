@@ -42,7 +42,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: 👌🏻 Setup and build
         run: |
-          npm ci
+          npm i --force
           npm run build
   # Single deploy job since we're just deploying
   deploy:
