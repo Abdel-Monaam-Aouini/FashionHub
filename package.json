@@ -61,5 +61,11 @@
   "author": "",
   "bugs": {
     "url": "https://github.com/Abdel-Monaam-Aouini/FashionHub/issues"
+  },
+  "release": {
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
+    }
   }
 }

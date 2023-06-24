@@ -1,9 +1,5 @@
 module.exports = {
   branches: ["master"],
-  release: {
-    verifyConditions: ["@semantic-release/github"],
-    publish: ["@semantic-release/github"],
-  },
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
