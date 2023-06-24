@@ -30,7 +30,7 @@
     "@semantic-release/git": "^3.0.0",
     "@semantic-release/github": "^4.4.2",
     "@semantic-release/release-notes-generator": "^4.0.5",
-    "@types/react": "^18.2.6",
+    "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
