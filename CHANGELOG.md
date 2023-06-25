@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.2.0...v1.2.1) (2023-06-25)
+
+
+### Bug Fixes
+
+* readme ([a2fb1ca](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/a2fb1ca758fb0bb7863b8e1c99d0859d24624de7))
+
 # [1.2.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.1.1...v1.2.0) (2023-06-25)
 
 
