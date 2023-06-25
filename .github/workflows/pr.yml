@@ -51,7 +51,7 @@ jobs:
     name: Approve and automerge (only dependanbot PRs)
     runs-on: ubuntu-latest
     environment: testing
-    needs: [test]
+    needs: [lint_client, test_client]
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Checkout
