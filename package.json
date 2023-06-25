@@ -52,7 +52,6 @@
     "typescript": "^5.1.3",
     "vite": "^4.3.5"
   },
-  "description": "![alt text](https://github.com/morteza-gho/react-admin-boilerplate/blob/main/dashboard.jpg?raw=true)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abdel-Monaam-Aouini/FashionHub.git"
