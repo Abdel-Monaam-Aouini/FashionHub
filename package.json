@@ -1,56 +1,10 @@
 {
-  "name": "fashion-hub",
-  "version": "1.2.0",
-  "main": "index.html",
-  "homepage": "https://Abdel-Monaam-Aouini.github.io/FashionHub/index.html",
-  "license": "MIT",
+  "name": "fashionhub",
+  "version": "1.0.0",
+  "description": "FashionHub is an eCommerce dashboard designed to facilitate the management of an online clothing and shoe store, catering to both women and men. The dashboard provides an intuitive interface for administrators to manage products, categories, orders, customers, and gain insights into the business.",
+  "main": "release.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext ts,tsx"
-  },
-  "dependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
-    "@types/react-router-dom": "^5.3.3",
-    "antd": "^5.6.2",
-    "postcss-nesting": "^11.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "react-query": "^3.39.3",
-    "react-router-dom": "^6.14.0",
-    "react-toastify": "^9.1.3",
-    "tailwind-scrollbar": "^3.0.4"
-  },
-  "devDependencies": {
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.0.3",
-    "@semantic-release/changelog": "6.0.2",
-    "@semantic-release/commit-analyzer": "10.0.1",
-    "@semantic-release/release-notes-generator": "11.0.3",
-    "semantic-release": "21.0.5",
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
-    "@typescript-eslint/eslint-plugin": "^5.60.0",
-    "@typescript-eslint/parser": "^5.60.0",
-    "@vitejs/plugin-react": "4.0.1",
-    "@vitest/coverage-istanbul": "0.32.2",
-    "autoprefixer": "^10.4.14",
-    "eslint": "8.43.0",
-    "eslint-config-prettier": "8.8.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-react": "7.32.2",
-    "postcss": "^8.4.24",
-    "prettier": "2.8.8",
-    "tailwindcss": "^3.3.2",
-    "typescript": "^5.1.3",
-    "vite": "^4.3.5"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -58,7 +12,17 @@
   },
   "keywords": [],
   "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Abdel-Monaam-Aouini/FashionHub/issues"
+  },
+  "homepage": "https://github.com/Abdel-Monaam-Aouini/FashionHub#readme",
+  "devDependencies": {
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "9.0.3",
+    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/commit-analyzer": "10.0.1",
+    "@semantic-release/release-notes-generator": "11.0.3",
+    "semantic-release": "21.0.5"
   }
 }

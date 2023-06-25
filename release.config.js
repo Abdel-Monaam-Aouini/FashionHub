@@ -21,7 +21,7 @@ module.exports = {
       {
         assets: [
           "CHANGELOG.md",
-          "dist/**",
+          "client/dist/**",
           "package.json",
           "package-lock.json",
         ],
