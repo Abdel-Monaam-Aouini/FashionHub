@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.0.0...v1.1.0) (2023-06-25)
+
+
+### Features
+
+* bump eslint-plugin-prettier from 3.4.0 to 4.2.1 ([#4](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/4)) ([17fdaaa](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/17fdaaaf97c9246c59b0145281228aa67140aee8))
+
 # 1.0.0 (2023-06-25)
 
 
