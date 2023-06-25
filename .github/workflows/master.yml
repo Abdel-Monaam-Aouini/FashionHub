@@ -27,8 +27,7 @@ jobs:
         run: |
           cd client
           npm i --force
-      - name: lint
-        run: npm run lint
+          npm run lint
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -82,8 +81,7 @@ jobs:
         run: |
           cd client
           npm i --force
-      - name: Build
-        run: npm run build
+          npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
