@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.1.0...v1.1.1) (2023-06-25)
+
+
+### Bug Fixes
+
+* pages write permissions ([e4cea14](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/e4cea1496abf58cc3ad29b271426159be1abe7df))
+
 # [1.1.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.0.0...v1.1.0) (2023-06-25)
 
 
