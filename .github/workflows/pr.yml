@@ -61,7 +61,7 @@ jobs:
           npm run lint
       - name: 👌🏻 Setup and build
         run: |
-          cd client
+          cd server
           npm i
           npm run dev &
           npm run test
