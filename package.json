@@ -1,6 +1,6 @@
 {
   "name": "fashionhub",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "FashionHub is an eCommerce dashboard designed to facilitate the management of an online clothing and shoe store, catering to both women and men. The dashboard provides an intuitive interface for administrators to manage products, categories, orders, customers, and gain insights into the business.",
   "main": "index.html",
   "scripts": {

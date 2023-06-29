@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.4.0...v1.4.1) (2023-06-29)
+
+
+### Bug Fixes
+
+* add scripts ([7d26ca0](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/7d26ca07edb61dd852cf62d3cbf3e79dfa936685))
+
 # [1.4.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.3.0...v1.4.0) (2023-06-29)
 
 
