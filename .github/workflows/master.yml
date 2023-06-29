@@ -16,8 +16,8 @@ permissions:
   pages: write
 
 jobs:
-  client:
-    name: Client
+  admin:
+    name: Admin
     runs-on: ubuntu-latest
     environment: testing
     steps:
@@ -27,12 +27,12 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Install dependencies
         run: |
-          cd client
+          cd admin
           npm i --force
           npm run lint
       - name: 👌🏻 Setup and build
         run: |
-          cd client
+          cd admin
           npm i --force
           npm run build
 
@@ -67,7 +67,7 @@ jobs:
     name: Create a tag
     runs-on: ubuntu-latest
     environment: production
-    needs: [client, server]
+    needs: [admin, server]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
