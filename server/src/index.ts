@@ -1,16 +1,9 @@
-import * as dotenv from "dotenv";
 import { app } from "./app";
 
-dotenv.config();
-
-if (!process.env.PORT) {
-  process.exit(1);
-}
-
-const PORT: number = parseInt(process.env.PORT as string, 10);
+const PORT: number = 3000;
 
 try {
-  app.listen(PORT, () => {
+  app.listen(3000, () => {
     console.log("🚀 ~ app.listen ~ PORT:", `http://localhost:${PORT}`);
   });
 } catch (error) {
