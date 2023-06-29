@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@exceptions/*": ["exceptions/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/**/*.ts", "src/**/*.json", ".env"],
+  "exclude": ["node_modules"]
+}

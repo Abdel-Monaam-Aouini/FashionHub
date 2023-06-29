@@ -18,8 +18,8 @@ permissions:
   id-token: write # to enable use of OIDC for npm provenance
 
 jobs:
-  lint_client:
-    name: linting
+  client:
+    name: Client
     runs-on: ubuntu-latest
     environment: testing
     steps:
@@ -32,20 +32,39 @@ jobs:
           cd client
           npm i --force
           npm run lint
-  test_client:
-    name: Test
-    runs-on: ubuntu-latest
-    environment: testing
-    steps:
-      - name: 👌🏻 Checkout
-        uses: actions/checkout@v3
-        with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: 👌🏻 Setup and build
         run: |
           cd client
           npm i --force
           npm run build
+
+  server:
+    name: Server
+    runs-on: ubuntu-latest
+    environment: testing
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: generate & seed db
+        run: |
+          cd server
+          npm i
+          npx prisma generate
+          npx prisma db push
+          npm run seed
+      - name: linting
+        run: |
+          cd server
+          npm i
+          npm run lint
+      - name: 👌🏻 Setup and build
+        run: |
+          cd client
+          npm i
+          npm run dev &
+          npm run test
 
   set-automerge:
     name: Approve and automerge (only dependanbot PRs)
