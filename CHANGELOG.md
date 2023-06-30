@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.4.1...v1.5.0) (2023-06-30)
+
+
+### Features
+
+* bump @types/cors from 2.8.12 to 2.8.13 in /server ([#30](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/30)) ([87feb50](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/87feb50bdaa4693bf2fbd00160dd31697031ae55))
+* bump dotenv from 16.0.1 to 16.3.1 in /server ([#32](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/32)) ([50752c7](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/50752c7d6432f79a69ca0d8bd7a451e5fe9a536e))
+* bump esbuild-register from 3.3.3 to 3.4.2 in /server ([#38](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/38)) ([f22a446](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/f22a446d4a137f96b6ac9545fdb3adaa28f856bb))
+* bump express and @types/express in /server ([#33](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/33)) ([0058efb](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/0058efbf3f9ea30b05cf8bad6ba4e209a220e05a))
+* bump express-validator from 6.14.1 to 7.0.1 in /server ([#31](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/31)) ([87165bf](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/87165bf4ddd088ad10d52577473438e72df49745))
+* bump nodemon from 2.0.16 to 2.0.22 in /server ([#35](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/35)) ([d87054a](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/d87054af5677d46563b753bcf911b2c1f2058c88))
+* bump typescript from 4.7.3 to 5.1.6 in /server ([#29](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/29)) ([5487e25](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/5487e25c427cb48e1aa61e2baf424d8d11c76bcb))
+
 ## [1.4.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.4.0...v1.4.1) (2023-06-29)
 
 
