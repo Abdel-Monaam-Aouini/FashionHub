@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.5.0...v1.6.0) (2023-06-30)
+
+
+### Features
+
+* bump @types/node from 17.0.41 to 20.3.2 in /server ([#36](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/36)) ([aad5a9b](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/aad5a9b0e78f07dff387dcc5ff6a21bc58337dca))
+
 # [1.5.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.4.1...v1.5.0) (2023-06-30)
 
 
