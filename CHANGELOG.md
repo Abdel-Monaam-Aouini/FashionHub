@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.1...v1.6.2) (2023-06-30)
+
+
+### Bug Fixes
+
+* eslint & config ([7d2fe74](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/7d2fe745a7f8b681b1745c241924b23fe853f03c))
+* linting ([cae138b](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/cae138bc85c1dcf4af177fb70104f38dc2333874))
+
 ## [1.6.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.0...v1.6.1) (2023-06-30)
 
 
