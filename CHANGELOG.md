@@ -1,3 +1,11 @@
+## [1.6.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.0...v1.6.1) (2023-06-30)
+
+
+### Bug Fixes
+
+* add binaryTargets prisma ([cdbb74e](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/cdbb74ec97413fa54db6ad371d7df132706e7225))
+* prisma ([bb96b02](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/bb96b0228dd40408b776cd08de166eb01668cf86))
+
 # [1.6.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.5.0...v1.6.0) (2023-06-30)
 
 
