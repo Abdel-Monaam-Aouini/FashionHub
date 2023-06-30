@@ -1,18 +1,11 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true,
-    "esModuleInterop": true,
-    "baseUrl": "./src/",
-    "paths": {
-      "@/*": ["./src/*"],
-      "@exceptions/*": ["exceptions/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@middlewares/*": ["middlewares/*"],
-      "@utils/*": ["utils/*"]
-    }
+    "outDir": "dist/",
+    "target": "ES2020",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/**/*.ts", "src/**/*.json", ".env"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }

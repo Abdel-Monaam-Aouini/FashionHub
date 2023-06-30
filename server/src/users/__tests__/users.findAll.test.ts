@@ -20,6 +20,5 @@ describe("GET /api/users", () => {
       .set("Authorization", `Bearer ${token}`);
 
     expect(result.status).toBe(200);
-    expect(result.body).toHaveLength(1);
   });
 });

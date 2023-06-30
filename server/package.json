@@ -9,12 +9,13 @@
   },
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "test": "jest",
+    "test": "export TS_JEST_DISABLE_VER_CHECKER=true && jest --runInBand",
     "lint": "eslint --ignore-path .gitignore --ext .ts src/",
     "lint:fix": "npm run lint -- --fix",
     "seed": "node --require esbuild-register prisma/seed.ts",
     "db:generate": "npx prisma generate",
-    "db:push": "npx prisma db push"
+    "db:push": "npx prisma db push",
+    "build": "tsc"
   },
   "dependencies": {
     "@prisma/client": "4.16.1",
@@ -31,12 +32,10 @@
     "@types/jest": "^28.1.6",
     "@types/node": "^20.3.2",
     "@types/supertest": "^2.0.12",
-    "@typescript-eslint/eslint-plugin": "^5.29.0",
-    "@typescript-eslint/parser": "^5.29.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
     "esbuild-register": "^3.4.2",
-    "eslint": "^8.20.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint": "^8.43.0",
     "jest": "^28.1.1",
     "nodemon": "^2.0.22",
     "prisma": "4.16.1",
