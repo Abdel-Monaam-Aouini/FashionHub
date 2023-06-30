@@ -1,5 +1,4 @@
 import express from "express";
-import { db } from "../utils/db.server";
 import { Request, Response } from "express";
 import { usersService } from "./users.service";
 

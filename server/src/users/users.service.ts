@@ -2,8 +2,6 @@ import { Prisma } from "@prisma/client";
 import { db } from "../utils/db.server";
 
 class UsersService {
-  constructor() {}
-
   async findAll() {
     return db.user.findMany();
   }
