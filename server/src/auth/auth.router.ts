@@ -10,7 +10,7 @@ export const authRouter = express.Router();
 authRouter.post(
   "/login",
   validate(LoginSchema),
-  async (req: Request<{}, {}, LoginInput["body"]>, res: Response) => {
+  async (req: Request<LoginInput["body"]>, res: Response) => {
     const { email } = req.body;
     const result = await authService.findOne({ email });
 
