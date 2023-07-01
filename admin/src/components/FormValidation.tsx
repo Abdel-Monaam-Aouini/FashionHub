@@ -1,65 +1,67 @@
-import React, { FC, useState } from "react";
-import { Form } from "antd";
-import DsButton from "../designSystem/components/buttons/DsButton";
-import DsCheckboxRadio from "../designSystem/components/checkboxRadios/DsCheckboxRadio";
-import DsForm from "../designSystem/components/forms/DsForm";
-import DsFormInput from "../designSystem/components/forms/DsFormInput";
-import DsFormSelect from "../designSystem/components/forms/DsFormSelect";
-import { ICustomError, IFieldData } from "../designSystem/components/forms/types";
-import { IRadioItem } from "../designSystem/components/checkboxRadios/type";
-
+import React, { FC, useState } from 'react';
+import { Form } from 'antd';
+import DsButton from '../designSystem/components/buttons/DsButton';
+import DsCheckboxRadio from '../designSystem/components/checkboxRadios/DsCheckboxRadio';
+import DsForm from '../designSystem/components/forms/DsForm';
+import DsFormInput from '../designSystem/components/forms/DsFormInput';
+import DsFormSelect from '../designSystem/components/forms/DsFormSelect';
+import {
+  ICustomError,
+  IFieldData,
+} from '../designSystem/components/forms/types';
+import { IRadioItem } from '../designSystem/components/checkboxRadios/type';
 
 interface FormFieldTypes {
-  name: string,
-  mobile: string,
-  email: string,
-  address: string,
-  job: string | null,
-  sports: string[],
-  gender: 'male' | 'female' | 'others',
-  acceptRules: boolean
+  name: string;
+  mobile: string;
+  email: string;
+  address: string;
+  job: string | null;
+  sports: string[];
+  gender: 'male' | 'female' | 'others';
+  acceptRules: boolean;
 }
 
 const jobs = [
   {
     value: '1',
-    label: 'Front-End Developer'
+    label: 'Front-End Developer',
   },
   {
     value: '2',
-    label: 'Back-End Developer'
+    label: 'Back-End Developer',
   },
   {
     value: '3',
-    label: 'UI/UX Designer'
+    label: 'UI/UX Designer',
   },
   {
     value: '4',
-    label: 'Scrum Master'
+    label: 'Scrum Master',
   },
   {
     value: 'teacher',
-    label: 'Teacher - select this to show custom error on submit'
-  }
+    label: 'Teacher - select this to show custom error on submit',
+  },
 ];
 
 const sports = [
   {
     value: 's1',
-    label: 'Football'
+    label: 'Football',
   },
   {
     value: 's2',
-    label: 'volleyball'
+    label: 'volleyball',
   },
   {
     value: 's3',
-    label: 'Basketball'
+    label: 'Basketball',
   },
   {
     value: 's4',
-    label: 'swimming'
-  }
+    label: 'swimming',
+  },
 ];
 
 const genders: IRadioItem[] = [
@@ -69,21 +71,18 @@ const genders: IRadioItem[] = [
 ];
 
 const FormValidation: FC = () => {
-
   const [form] = Form.useForm<FormFieldTypes>(); // you will need this to handle form action, like: reset or fillout
   const [teacherError, setTeacherError] = useState<ICustomError>(); // this is a custom error when user select teacher as job
 
   // submit form and get form data
   const onSubmitForm = (formData: FormFieldTypes) => {
-
     if (formData.job === 'teacher') {
       // show custom error here
-      setTeacherError({ name: 'job', error: 'you can not select teacher' })
+      setTeacherError({ name: 'job', error: 'you can not select teacher' });
     } else {
       // submit form here
       console.log(formData);
     }
-
   };
 
   // reset form by this way
@@ -100,23 +99,20 @@ const FormValidation: FC = () => {
       address: 'my address',
       job: '1',
       sports: ['s1', 's2'],
-      gender: 'male'
+      gender: 'male',
     });
   };
 
   // when a field was changed, this method calls
   const onChange = (fields: IFieldData[]) => {
     /* console.log(fields) */
-  }
+  };
 
   return (
     <section id="ds-form-validations" className="ds-section">
       <h2 className="ds-section-title">Form Validations</h2>
-
       <div className="ds-section-content">
-
         <div className="ds-section-vaients md:w-1/2">
-
           <DsForm<FormFieldTypes>
             form={form}
             initialValues={{
@@ -127,7 +123,7 @@ const FormValidation: FC = () => {
               job: null,
               sports: [],
               gender: 'male',
-              acceptRules: false
+              acceptRules: false,
             }}
             onSubmit={(formData: FormFieldTypes) => onSubmitForm(formData)}
             onChangeField={(field) => onChange(field)}
@@ -155,7 +151,16 @@ const FormValidation: FC = () => {
               label="Email address"
               name="email"
               placeholder="Enter Email Address"
-              rules={[{ required: true, message: 'required - this is custom required error' }, { type: 'email', message: 'not valid - this is custom email error' }]}
+              rules={[
+                {
+                  required: true,
+                  message: 'required - this is custom required error',
+                },
+                {
+                  type: 'email',
+                  message: 'not valid - this is custom email error',
+                },
+              ]}
             />
             <DsFormInput
               textarea
@@ -187,7 +192,7 @@ const FormValidation: FC = () => {
               label="select your favorite sports"
               helpText="minimun 2 and maximum 3 items"
               helpTextClass="text-gray-main"
-              rules={[{ required: true, type: "array", min: 2, max: 3 }]}
+              rules={[{ required: true, type: 'array', min: 2, max: 3 }]}
             />
 
             <DsCheckboxRadio
@@ -209,26 +214,37 @@ const FormValidation: FC = () => {
               text="I agree the terms and conditions"
               color="blue"
               size="lg"
-              rules={[{
-                required: true,
-                transform: value => (value || undefined),
-                type: 'boolean',
-                message: 'Please agree the terms and conditions.',
-              }]}
+              rules={[
+                {
+                  required: true,
+                  transform: (value) => value || undefined,
+                  type: 'boolean',
+                  message: 'Please agree the terms and conditions.',
+                },
+              ]}
             />
 
             <div className="flex gap-x-2">
               <DsButton type="green" htmlType="submit" text="Submit Form" />
-              <DsButton type="default" htmlType="button" text="Fill Form" onClick={fillForm} />
-              <DsButton type="dark" htmlType="button" text="Reset" onClick={resetForm} />
+              <DsButton
+                type="default"
+                htmlType="button"
+                text="Fill Form"
+                onClick={fillForm}
+              />
+              <DsButton
+                type="dark"
+                htmlType="button"
+                text="Reset"
+                onClick={resetForm}
+              />
             </div>
           </DsForm>
-
-        </div> {/* end of form validation */}
-
-      </div> {/* .ds-section-content */}
-
+        </div>{' '}
+        {/* end of form validation */}
+      </div>{' '}
+      {/* .ds-section-content */}
     </section>
-  )
+  );
 };
 export default FormValidation;

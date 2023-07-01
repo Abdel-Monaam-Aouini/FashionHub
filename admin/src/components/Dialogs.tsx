@@ -1,10 +1,10 @@
-import React, { FC, useState } from "react";
-import { HiHand } from "react-icons/hi";
-import { toast } from "react-toastify";
-import DsAlertModal from "../designSystem/components/dialogs/DsAlertModal";
-import DsConfirmModal from "../designSystem/components/dialogs/DsConfirmModal";
-import DsModal from "../designSystem/components/dialogs/DsModal";
-import DsButton from "../designSystem/components/buttons/DsButton";
+import React, { FC, useState } from 'react';
+import { HiHand } from 'react-icons/hi';
+import { toast } from 'react-toastify';
+import DsAlertModal from '../designSystem/components/dialogs/DsAlertModal';
+import DsConfirmModal from '../designSystem/components/dialogs/DsConfirmModal';
+import DsModal from '../designSystem/components/dialogs/DsModal';
+import DsButton from '../designSystem/components/buttons/DsButton';
 
 const DsDialogs: FC = () => {
   const [isSmModalOpen, setIsSmModalOpen] = useState<boolean>(false);
@@ -73,7 +73,7 @@ const DsDialogs: FC = () => {
             size="md"
             title={
               <div className="space-x-2">
-                <HiHand className="inline" /> custom modal header{" "}
+                <HiHand className="inline" /> custom modal header{' '}
                 <span className="badge badge-green-light relative -top-1">
                   Badge
                 </span>
@@ -113,7 +113,7 @@ const DsDialogs: FC = () => {
               </button>
             </div>
           </DsModal>
-        </div>{" "}
+        </div>{' '}
         {/* end of modals */}
         <div className="ds-section-vaients">
           <h4 className="varients-title">Alerts</h4>
@@ -194,7 +194,7 @@ const DsDialogs: FC = () => {
               </ul>
             </div>
           </DsAlertModal>
-        </div>{" "}
+        </div>{' '}
         {/* end of alerts */}
         <div className="ds-section-vaients">
           <h4 className="varients-title">Confirms</h4>
@@ -229,7 +229,7 @@ const DsDialogs: FC = () => {
             onApprove={() => setIsConfirmDangerModalOpen(false)}
             onReject={() => setIsConfirmDangerModalOpen(false)}
           />
-        </div>{" "}
+        </div>{' '}
         {/* end of confirms */}
         <div className="ds-section-vaients">
           <h4 className="varients-title">Notification</h4>
@@ -239,36 +239,36 @@ const DsDialogs: FC = () => {
               type="green"
               size="base"
               text="Success"
-              onClick={() => toast.success("this is a success notification")}
+              onClick={() => toast.success('this is a success notification')}
             />
             <DsButton
               type="red"
               size="base"
               text="Error"
-              onClick={() => toast.error("this is a error notification")}
+              onClick={() => toast.error('this is a error notification')}
             />
             <DsButton
               type="yellow"
               size="base"
               text="Warning"
-              onClick={() => toast.warning("this is a warning notification")}
+              onClick={() => toast.warning('this is a warning notification')}
             />
             <DsButton
               type="default"
               size="base"
               text="Info"
-              onClick={() => toast.info("this is a info notification")}
+              onClick={() => toast.info('this is a info notification')}
             />
             <DsButton
               type="light"
               size="base"
               text="Light"
-              onClick={() => toast("this is a light notification")}
+              onClick={() => toast('this is a light notification')}
             />
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* end of notofications */}
-      </div>{" "}
+      </div>{' '}
       {/* .ds-section-content */}
     </section>
   );

@@ -1,17 +1,25 @@
-import React, { FC, ReactNode } from "react";
-import { Modal } from "antd";
+import React, { FC, ReactNode } from 'react';
+import { Modal } from 'antd';
 
 interface IPropTypes {
-  size: 'sm' | 'md' | 'lg'
-  open: boolean
-  title?: string | ReactNode
-  children: ReactNode
-  closable?: boolean
-  onClose?: () => void
-  className?: string
+  size: 'sm' | 'md' | 'lg';
+  open: boolean;
+  title?: string | ReactNode;
+  children: ReactNode;
+  closable?: boolean;
+  onClose?: () => void;
+  className?: string;
 }
 
-const DsModal: FC<IPropTypes> = ({ size = 'md', open = false, title, children, closable = true, onClose, className }) => {
+const DsModal: FC<IPropTypes> = ({
+  size = 'md',
+  open = false,
+  title,
+  children,
+  closable = true,
+  onClose,
+  className,
+}) => {
   return (
     <Modal
       title={title || null}
@@ -25,7 +33,7 @@ const DsModal: FC<IPropTypes> = ({ size = 'md', open = false, title, children, c
     >
       {children}
     </Modal>
-  )
+  );
 };
 
 export default DsModal;

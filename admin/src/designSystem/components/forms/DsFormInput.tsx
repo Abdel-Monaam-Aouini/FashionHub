@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FC, ReactNode } from "react"
+import React, { ChangeEvent, FC, ReactNode } from 'react';
 import { Form, Input } from 'antd';
 import TextArea from 'antd/lib/input/TextArea';
 import FormItemLabel from './partials/FormItemLabel';
@@ -12,7 +12,10 @@ interface PropTypes extends FormItemPropTypes {
   textareaRows?: number;
   autoSize?: boolean | { minRows: number; maxRows: number };
   maxLength?: number;
-  onChange?: (val, e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
+  onChange?: (
+    val,
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => void;
   defaultValue?: string;
   withoutForm?: boolean;
 }
@@ -82,7 +85,13 @@ const DsFormInput: FC<PropTypes> = ({
   );
   return (
     <div
-      className={`form-item form-item-${size} ${icons ? `form-item-has-icon form-item-has-icon-${iconsPosition}` : ''} ${stickIcon ? `form-item-stick-icon form-item-stick-icon-${stickIconPosition}` : ''} ${className}`}
+      className={`form-item form-item-${size} ${
+        icons ? `form-item-has-icon form-item-has-icon-${iconsPosition}` : ''
+      } ${
+        stickIcon
+          ? `form-item-stick-icon form-item-stick-icon-${stickIconPosition}`
+          : ''
+      } ${className}`}
     >
       <FormItemLabel
         text={label}
@@ -118,9 +127,9 @@ const DsFormInput: FC<PropTypes> = ({
           // this is for text that bellow of inputs
           bellowHelpText && (
             <div
-              className={`mt-1 italic font-medium ${bellowHelpTextClass || 'text-gray-main'} ${
-                onBellowHelpTextClick ? 'cursor-pointer' : ''
-              }`}
+              className={`mt-1 italic font-medium ${
+                bellowHelpTextClass || 'text-gray-main'
+              } ${onBellowHelpTextClick ? 'cursor-pointer' : ''}`}
               onClick={onHelpTextClick}
             >
               {bellowHelpText}
@@ -129,7 +138,9 @@ const DsFormInput: FC<PropTypes> = ({
         }
 
         {/* this is for icons that placed in input */}
-        {icons ? <div className={`icons-wrapper ${iconsClass || ''}`}>{icons}</div> : null}
+        {icons ? (
+          <div className={`icons-wrapper ${iconsClass || ''}`}>{icons}</div>
+        ) : null}
 
         {/* this is for stick icon */}
         {stickIcon ? (

@@ -1,26 +1,27 @@
-import { Tooltip } from "antd";
-import React, { FC, ReactNode } from "react";
-import { HiOutlineInformationCircle } from "react-icons/hi2";
+import { Tooltip } from 'antd';
+import React, { FC, ReactNode } from 'react';
+import { HiOutlineInformationCircle } from 'react-icons/hi2';
 
 interface PropTypes {
-  text?: string | ReactNode
-  helpText?: string | ReactNode
-  helpTextClass?: string
-  onHelpTextClick?: () => void
-  helpIcon?: ReactNode
-  helpIconText?: string | ReactNode
-  helpIconClass?: string
-  onHelpIconClick?: () => void
+  text?: string | ReactNode;
+  helpText?: string | ReactNode;
+  helpTextClass?: string;
+  onHelpTextClick?: () => void;
+  helpIcon?: ReactNode;
+  helpIconText?: string | ReactNode;
+  helpIconClass?: string;
+  onHelpIconClick?: () => void;
 }
 
-const FormItemLabel: FC<PropTypes> = ({ text,
+const FormItemLabel: FC<PropTypes> = ({
+  text,
   helpText,
   helpTextClass,
   onHelpTextClick,
   helpIcon,
   helpIconText,
   helpIconClass,
-  onHelpIconClick
+  onHelpIconClick,
 }) => {
   return (
     <label className={`form-label ${text ? '' : 'mb-0'}`}>
@@ -31,13 +32,16 @@ const FormItemLabel: FC<PropTypes> = ({ text,
         - this is for text that in front of label
         - you can click on text and do something in parent
       */
-        helpText ?
+        helpText ? (
           <div
-            className={`another-text ${helpTextClass || 'text-blue-main'} ${onHelpTextClick ? 'cursor-pointer' : ''}`}
-            onClick={onHelpTextClick}>
+            className={`another-text ${helpTextClass || 'text-blue-main'} ${
+              onHelpTextClick ? 'cursor-pointer' : ''
+            }`}
+            onClick={onHelpTextClick}
+          >
             {helpText}
           </div>
-          : null
+        ) : null
       }
 
       {
@@ -45,16 +49,23 @@ const FormItemLabel: FC<PropTypes> = ({ text,
         - this is for help icon that in front of label,
         - you can click on icon and do something in parent 
       */
-        helpIcon || helpIconText ?
-          <div className={`another-text ${onHelpIconClick ? 'cursor-pointer' : ''}`} onClick={onHelpIconClick}>
+        helpIcon || helpIconText ? (
+          <div
+            className={`another-text ${
+              onHelpIconClick ? 'cursor-pointer' : ''
+            }`}
+            onClick={onHelpIconClick}
+          >
             <Tooltip placement="top" title={helpIconText}>
-              <span className={`icon ${helpIconClass || 'text-blue-main'}`}>{helpIcon || <HiOutlineInformationCircle />}</span>
+              <span className={`icon ${helpIconClass || 'text-blue-main'}`}>
+                {helpIcon || <HiOutlineInformationCircle />}
+              </span>
             </Tooltip>
           </div>
-          : null
+        ) : null
       }
     </label>
-  )
+  );
 };
 
-export default FormItemLabel
+export default FormItemLabel;

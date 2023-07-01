@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import DsBadge from "../designSystem/components/badges/DsBadge";
+import React, { FC } from 'react';
+import DsBadge from '../designSystem/components/badges/DsBadge';
 
 const Badges: FC = () => {
   return (
@@ -7,7 +7,6 @@ const Badges: FC = () => {
       <h2 className="ds-section-title">Badges</h2>
 
       <div className="ds-section-content">
-
         <div className="ds-section-vaients mb-6">
           <h4 className="varients-title mb-3">Simple</h4>
           <div className="space-x-3">
@@ -48,9 +47,7 @@ const Badges: FC = () => {
             <DsBadge type="purple" text="purple" innerContent={2} />
           </div>
         </div>
-
       </div>
-
     </section>
   );
 };

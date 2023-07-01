@@ -1,12 +1,12 @@
-import React, { FC } from "react";
+import React, { FC } from 'react';
 import {
   HiBell,
   HiOutlineBell,
   HiOutlineBolt,
   HiOutlineGlobeAlt,
   HiOutlineHome,
-} from "react-icons/hi2";
-import DsButton from "../designSystem/components/buttons/DsButton";
+} from 'react-icons/hi2';
+import DsButton from '../designSystem/components/buttons/DsButton';
 
 const Buttons: FC = () => {
   return (

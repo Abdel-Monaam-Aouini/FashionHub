@@ -1,8 +1,8 @@
-import React, { useState, useLayoutEffect } from "react";
-import { Button, Dropdown, Layout, Menu, MenuProps } from "antd";
-import { Outlet, useNavigate } from "react-router-dom";
-import { HiBadgeCheck, HiInbox, HiMenu, HiOutlineLogout } from "react-icons/hi";
-import DsButton from "./designSystem/components/buttons/DsButton";
+import React, { useState, useLayoutEffect } from 'react';
+import { Button, Dropdown, Layout, Menu, MenuProps } from 'antd';
+import { Outlet, useNavigate } from 'react-router-dom';
+import { HiBadgeCheck, HiInbox, HiMenu, HiOutlineLogout } from 'react-icons/hi';
+import DsButton from './designSystem/components/buttons/DsButton';
 import {
   HiBellAlert,
   HiCheckCircle,
@@ -16,8 +16,8 @@ import {
   HiTableCells,
   HiUserCircle,
   HiViewColumns,
-} from "react-icons/hi2";
-import { CurrentUser, IsLogin, Logout } from "./services/AuthService";
+} from 'react-icons/hi2';
+import { CurrentUser, IsLogin, Logout } from './services/AuthService';
 
 const App = () => {
   const { Sider } = Layout;
@@ -26,93 +26,93 @@ const App = () => {
 
   const menuItems = [
     {
-      key: "Dashboard",
+      key: 'Dashboard',
       icon: <HiHome />,
-      label: "Dashboard",
-      target: "/app/dashboard",
+      label: 'Dashboard',
+      target: '/app/dashboard',
     },
     {
-      key: "Tables",
+      key: 'Tables',
       icon: <HiTableCells />,
-      label: "Tables",
-      target: "/app/tables",
+      label: 'Tables',
+      target: '/app/tables',
     },
     {
-      key: "Buttons",
+      key: 'Buttons',
       icon: <HiInbox />,
-      label: "Buttons",
-      target: "/app/buttons",
+      label: 'Buttons',
+      target: '/app/buttons',
     },
     {
-      key: "FormItems",
+      key: 'FormItems',
       icon: <HiDocumentText />,
-      label: "FormItems",
-      target: "/app/FormItems",
+      label: 'FormItems',
+      target: '/app/FormItems',
     },
     {
-      key: "CheckBoxesRadios",
+      key: 'CheckBoxesRadios',
       icon: <HiCheckCircle />,
-      label: "CheckBoxesRadios",
-      target: "/app/checkBoxesRadios",
+      label: 'CheckBoxesRadios',
+      target: '/app/checkBoxesRadios',
     },
     {
-      key: "FormValidation",
+      key: 'FormValidation',
       icon: <HiExclamationTriangle />,
-      label: "FormValidation",
-      target: "/app/formValidation",
+      label: 'FormValidation',
+      target: '/app/formValidation',
     },
     {
-      key: "Avatars",
+      key: 'Avatars',
       icon: <HiUserCircle />,
-      label: "Avatars",
-      target: "/app/avatars",
+      label: 'Avatars',
+      target: '/app/avatars',
     },
     {
-      key: "Badges",
+      key: 'Badges',
       icon: <HiBadgeCheck />,
-      label: "Badges",
-      target: "/app/badges",
+      label: 'Badges',
+      target: '/app/badges',
     },
     {
-      key: "Boxes",
+      key: 'Boxes',
       icon: <HiOutlineStop />,
-      label: "Boxes",
-      target: "/app/boxes",
+      label: 'Boxes',
+      target: '/app/boxes',
     },
     {
-      key: "Alerts",
+      key: 'Alerts',
       icon: <HiBellAlert />,
-      label: "Alerts",
-      target: "/app/alerts",
+      label: 'Alerts',
+      target: '/app/alerts',
     },
     {
-      key: "Dialogs",
+      key: 'Dialogs',
       icon: <HiRocketLaunch />,
-      label: "Dialogs & Notifications",
-      target: "/app/dialogs",
+      label: 'Dialogs & Notifications',
+      target: '/app/dialogs',
     },
     {
-      key: "Texts",
+      key: 'Texts',
       icon: <HiDocumentText />,
-      label: "Texts",
-      target: "/app/texts",
+      label: 'Texts',
+      target: '/app/texts',
     },
     {
-      key: "Steps",
+      key: 'Steps',
       icon: <HiFlag />,
-      label: "Steps",
-      target: "/app/steps",
+      label: 'Steps',
+      target: '/app/steps',
     },
     {
-      key: "Tabs",
+      key: 'Tabs',
       icon: <HiViewColumns />,
-      label: "Tabs",
-      target: "/app/tabs",
+      label: 'Tabs',
+      target: '/app/tabs',
     },
   ];
 
   const handleDropdownClick = ({ key }) => {
-    if (key === "logout") {
+    if (key === 'logout') {
       Logout();
     }
   };
@@ -124,10 +124,10 @@ const App = () => {
     }
   };
 
-  const items: MenuProps["items"] = [
+  const items: MenuProps['items'] = [
     {
-      label: "Logout",
-      key: "logout",
+      label: 'Logout',
+      key: 'logout',
       icon: <HiOutlineLogout />,
     },
   ];
@@ -140,7 +140,7 @@ const App = () => {
   /* redirect to login if user unauthorized */
   useLayoutEffect(() => {
     if (!IsLogin()) {
-      navigate("/login");
+      navigate('/login');
     }
   }, []);
 
@@ -159,14 +159,14 @@ const App = () => {
           <Menu
             theme="dark"
             mode="inline"
-            style={{ height: "100%", borderRight: 0 }}
+            style={{ height: '100%', borderRight: 0 }}
             items={menuItems}
             onClick={handleMenuClick}
           />
         </Sider>
       </Layout>
 
-      <Layout className={`content-wrapper ${collapsed ? "full-width" : ""}`}>
+      <Layout className={`content-wrapper ${collapsed ? 'full-width' : ''}`}>
         <header className="main-header">
           <div className="flex justify-between items-center w-full">
             {CurrentUser() && (

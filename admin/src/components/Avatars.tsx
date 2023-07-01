@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import DsAvatar from "../designSystem/components/avatars/DsAvatar";
+import React, { FC } from 'react';
+import DsAvatar from '../designSystem/components/avatars/DsAvatar';
 
 const Avatars: FC = () => {
   return (
@@ -64,7 +64,7 @@ const Avatars: FC = () => {
               />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* end of xsmall */}
         <div className="flex flex-col w-full md:flex-row mb-4">
           <div className="ds-section-vaients flex-1">
@@ -124,7 +124,7 @@ const Avatars: FC = () => {
               />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* end of small */}
         <div className="flex flex-col w-full md:flex-row mb-4">
           <div className="ds-section-vaients flex-1">
@@ -184,7 +184,7 @@ const Avatars: FC = () => {
               />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* end of medium */}
         <div className="flex flex-col w-full md:flex-row mb-4">
           <div className="ds-section-vaients flex-1">
@@ -244,9 +244,9 @@ const Avatars: FC = () => {
               />
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
         {/* end of large */}
-      </div>{" "}
+      </div>{' '}
       {/* .ds-section-content */}
     </section>
   );
