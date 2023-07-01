@@ -9,7 +9,10 @@ const columns = [
     title: 'Row',
     dataIndex: 'id',
     key: 'id',
-    render: (id, record, index) => { ++index; return index; },
+    render: (id, record, index) => {
+      ++index;
+      return index;
+    },
   },
   {
     title: 'Name',
@@ -36,31 +39,45 @@ const columns = [
     dataIndex: 'company',
     key: 'company',
     render: (item) => {
-      return item.name
-    }
+      return item.name;
+    },
   },
   {
     title: 'Action',
     dataIndex: 'action',
     key: 'action',
-    render: () => (<div className='flex gap-x-2 justify-center items-center'>
-      <DsButton type='outline-default' size='xs' icon={<HiPencil />} justIcon onClick={() => { }} />
-      <DsButton type='outline-red' size='xs' icon={<HiTrash />} justIcon onClick={() => { }} />
-    </div>),
+    render: () => (
+      <div className="flex gap-x-2 justify-center items-center">
+        <DsButton
+          type="outline-default"
+          size="xs"
+          icon={<HiPencil />}
+          justIcon
+          onClick={() => {}}
+        />
+        <DsButton
+          type="outline-red"
+          size="xs"
+          icon={<HiTrash />}
+          justIcon
+          onClick={() => {}}
+        />
+      </div>
+    ),
   },
 ];
 
-
 const Tables: FC = () => {
-
   const { isLoading, isError, data, error } = useQuery('users', () =>
-    fetch('https://jsonplaceholder.typicode.com/users').then((res) => res.json())
+    fetch('https://jsonplaceholder.typicode.com/users').then((res) =>
+      res.json(),
+    ),
   );
 
   return (
     <div>
       <Table
-        rowKey='id'
+        rowKey="id"
         bordered
         pagination={{ pageSize: 5 }}
         loading={isLoading}
@@ -68,6 +85,6 @@ const Tables: FC = () => {
         dataSource={data}
       />
     </div>
-  )
-}
+  );
+};
 export default Tables;

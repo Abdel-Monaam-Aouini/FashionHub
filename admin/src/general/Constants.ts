@@ -12,6 +12,7 @@ export const MESSAGES = {
   ITEM_EXIST: 'This item already exists',
   SELECT_AT_LEAST_ONE: 'Choose at least one',
   CONFIRM_DELETE_TEXT: 'Are you sure you want to delete this item?',
-}
+};
 
-export const CUSTOM_SCROLLBAR = 'scrollbar scrollbar-w-1.5 scrollbar-thumb-rounded scrollbar-track-gray-200 scrollbar-thumb-gray-600'
+export const CUSTOM_SCROLLBAR =
+  'scrollbar scrollbar-w-1.5 scrollbar-thumb-rounded scrollbar-track-gray-200 scrollbar-thumb-gray-600';

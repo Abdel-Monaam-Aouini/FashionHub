@@ -1,5 +1,5 @@
-import { Form } from "antd";
-import React, { FC } from "react";
+import { Form } from 'antd';
+import React, { FC } from 'react';
 import {
   HiCursorArrowRays,
   HiEyeSlash,
@@ -7,11 +7,11 @@ import {
   HiMagnifyingGlass,
   HiMicrophone,
   HiOutlineEnvelope,
-} from "react-icons/hi2";
-import DsForm from "../designSystem/components/forms/DsForm";
-import DsFormInput from "../designSystem/components/forms/DsFormInput";
-import DsFormSelect from "../designSystem/components/forms/DsFormSelect";
-import DsFormDatePicker from "../designSystem/components/forms/DsFormDatePicker";
+} from 'react-icons/hi2';
+import DsForm from '../designSystem/components/forms/DsForm';
+import DsFormInput from '../designSystem/components/forms/DsFormInput';
+import DsFormSelect from '../designSystem/components/forms/DsFormSelect';
+import DsFormDatePicker from '../designSystem/components/forms/DsFormDatePicker';
 
 const FormItems: FC = () => {
   const [form] = Form.useForm();
@@ -21,21 +21,21 @@ const FormItems: FC = () => {
       <>
         <HiEyeSlash
           className="icon"
-          onClick={() => console.log("you clicked on eye icon")}
+          onClick={() => console.log('you clicked on eye icon')}
         />
         <HiHandRaised
           className="icon"
-          onClick={() => console.log("you clicked on hand icon")}
+          onClick={() => console.log('you clicked on hand icon')}
         />
       </>
     );
   };
 
   const helpTextClick = () => {
-    console.log("you clicked on a help text");
+    console.log('you clicked on a help text');
   };
   const helpIconClick = () => {
-    console.log("you clicked on a help icon");
+    console.log('you clicked on a help icon');
   };
   const onInputChange = (value) => {
     console.log(value);
@@ -43,39 +43,39 @@ const FormItems: FC = () => {
 
   const names = [
     {
-      value: "opt1",
-      label: "Option 1",
+      value: 'opt1',
+      label: 'Option 1',
     },
     {
-      value: "opt2",
-      label: "Option 2",
+      value: 'opt2',
+      label: 'Option 2',
     },
     {
-      value: "opt3",
-      label: "Option 3",
+      value: 'opt3',
+      label: 'Option 3',
     },
     {
-      value: "opt4",
-      label: "Option 4",
+      value: 'opt4',
+      label: 'Option 4',
     },
     {
-      value: "opt5",
-      label: "Option 5",
+      value: 'opt5',
+      label: 'Option 5',
     },
     {
-      value: "opt6",
-      label: "Option 6",
+      value: 'opt6',
+      label: 'Option 6',
     },
   ];
 
   const countries = [
     {
-      value: "+44",
-      label: "+44 England",
+      value: '+44',
+      label: '+44 England',
     },
     {
-      value: "+98",
-      label: "+98 Iran",
+      value: '+98',
+      label: '+98 Iran',
     },
   ];
 

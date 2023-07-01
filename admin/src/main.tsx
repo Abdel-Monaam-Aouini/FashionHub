@@ -1,10 +1,10 @@
-import React, { StrictMode } from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import AppRoutes from './general/routes'
-import './assets/stylesheets/style.css'
-import { QueryClient, QueryClientProvider } from 'react-query'
-import { ToastContainer } from 'react-toastify'
+import React, { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './general/routes';
+import './assets/stylesheets/style.css';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const queryClient = new QueryClient({
@@ -36,5 +36,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         />
       </BrowserRouter>
     </QueryClientProvider>
-  </StrictMode>
-)
+  </StrictMode>,
+);
