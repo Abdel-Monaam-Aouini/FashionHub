@@ -7,5 +7,5 @@ try {
     console.log('🚀 ~ app.listen ~ PORT:', `http://localhost:${PORT}`);
   });
 } catch (error) {
-  console.error('🚀 ~ server ~ error:', error.message);
+  console.error('🚀 ~ server ~ error:', (error as Error).message);
 }
