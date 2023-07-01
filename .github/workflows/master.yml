@@ -29,6 +29,7 @@ jobs:
         run: |
           cd admin
           npm i --force
+          npm run format
           npm run lint
       - name: 👌🏻 Setup and build
         run: |
