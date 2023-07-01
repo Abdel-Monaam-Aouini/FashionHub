@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.7.1...v1.7.2) (2023-07-01)
+
+
+### Bug Fixes
+
+* Update README.md ([#41](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/41)) ([a8880d2](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/a8880d2c3d328a36205c8cf44494274385c6da66))
+
 ## [1.7.1](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.7.0...v1.7.1) (2023-07-01)
 
 
