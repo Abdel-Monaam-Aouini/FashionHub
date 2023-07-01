@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.3...v1.7.0) (2023-07-01)
+
+
+### Features
+
+* add prettier format ([#39](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/39)) ([0650640](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/0650640bfac0e50ca6dbd2e632a51c35cc89b1b6))
+
 ## [1.6.3](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.2...v1.6.3) (2023-07-01)
 
 
