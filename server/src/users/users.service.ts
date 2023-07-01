@@ -1,5 +1,5 @@
-import { Prisma } from "@prisma/client";
-import { db } from "../utils/db.server";
+import { Prisma } from '@prisma/client';
+import { db } from '../utils/db.server';
 
 class UsersService {
   async findAll() {

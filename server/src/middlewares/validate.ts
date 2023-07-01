@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from "express";
+import { NextFunction, Request, Response } from 'express';
 
 export const validate =
   (schema: any) => (req: Request, res: Response, next: NextFunction) => {
@@ -11,6 +11,6 @@ export const validate =
 
       next();
     } catch (err) {
-      return res.status(400).send(err.errors);
+      return res.status(400).send(err);
     }
   };
