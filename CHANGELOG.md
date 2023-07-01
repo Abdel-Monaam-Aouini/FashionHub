@@ -1,3 +1,11 @@
+## [1.6.3](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.2...v1.6.3) (2023-07-01)
+
+
+### Bug Fixes
+
+* auth module ([16b6bb7](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/16b6bb74d8e0f7123d5c26857ad12604bf5ab58f))
+* typo ([cb34b8a](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/cb34b8a111acc134b9d57bb9810cc8386959415c))
+
 ## [1.6.2](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.6.1...v1.6.2) (2023-06-30)
 
 
