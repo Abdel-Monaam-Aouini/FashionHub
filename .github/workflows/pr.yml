@@ -58,6 +58,7 @@ jobs:
         run: |
           cd server
           npm i
+          npm run format
           npm run lint
       - name: 👌🏻 Setup and build
         run: |
