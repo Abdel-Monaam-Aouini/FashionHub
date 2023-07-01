@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { TypeOf, z } from "zod";
 
 export const LoginSchema = z.object({
   body: z.object({
@@ -6,3 +6,5 @@ export const LoginSchema = z.object({
     password: z.string(),
   }),
 });
+
+export type LoginInput = TypeOf<typeof LoginSchema>;
