@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.8.0...v1.9.0) (2023-07-06)
+
+
+### Features
+
+* bump @types/node from 20.3.3 to 20.4.0 in /server ([#61](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/61)) ([78a1ca6](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/78a1ca6308f4c2344589dab3203c49b72c085e0a))
+* bump prettier from 2.8.8 to 3.0.0 in /admin ([#62](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/62)) ([05b7de0](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/05b7de056d6c4494f728f56252d85f2673a1a0c4))
+
 # [1.8.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.7.2...v1.8.0) (2023-07-05)
 
 
