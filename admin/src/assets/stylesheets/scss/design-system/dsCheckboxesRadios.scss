@@ -26,13 +26,13 @@
 
       &.ant-checkbox-disabled{
         &.ant-checkbox-checked .ant-checkbox-inner {
-          @apply bg-gray-lighter border-gray-300 !important;
+          @apply bg-gray-lighter border-gray-300;
         }
       }
 
       &.ant-radio-disabled {
         .ant-radio-inner {
-          @apply bg-gray-lighter border-gray-300 !important;
+          @apply bg-gray-lighter border-gray-300;
         }
         &.ant-radio-checked .ant-radio-inner:after {
           @apply bg-gray-300;
@@ -51,7 +51,7 @@
     }
     .ant-radio-inner {
       @apply w-4 h-4 border-stone-800 shadow-none;
-      @apply bg-white !important;
+      @apply bg-white  ;
     }
 
     &.checkbox-circle {
@@ -118,15 +118,15 @@
     &.checkbox-black {
       &:hover {
         .ant-checkbox-inner {
-          @apply border-stone-800 !important
+          @apply border-stone-800  
         }
       }
       .ant-checkbox-checked {
         &:after {
-          @apply border-stone-800 !important
+          @apply border-stone-800  
         }
         .ant-checkbox-inner {
-          @apply border-stone-800 bg-stone-800 !important
+          @apply border-stone-800 bg-stone-800  
         }
       }
     } /* .checkbox-black */
@@ -134,15 +134,15 @@
     &.checkbox-blue {
       &:hover {
         .ant-checkbox-inner {
-          @apply border-blue-600 !important
+          @apply border-blue-600  
         }
       }
       .ant-checkbox-checked {
         &:after {
-          @apply border-blue-600 !important
+          @apply border-blue-600  
         }
         .ant-checkbox-inner {
-          @apply border-blue-600 bg-blue-600 !important
+          @apply border-blue-600 bg-blue-600  
         }
       }
     } /* .checkbox-blue */
@@ -150,15 +150,15 @@
     &.checkbox-yellow {
       &:hover {
         .ant-checkbox-inner {
-          @apply border-yellow-600 !important
+          @apply border-yellow-600  
         }
       }
       .ant-checkbox-checked {
         &:after {
-          @apply border-yellow-600 !important
+          @apply border-yellow-600  
         }
         .ant-checkbox-inner {
-          @apply border-yellow-600 bg-yellow-600 !important
+          @apply border-yellow-600 bg-yellow-600  
         }
       }
     } /* .checkbox-blue */
@@ -281,7 +281,7 @@
   @apply flex justify-between mb-1;
 
   label {
-    @apply ml-0 !important
+    @apply ml-0  
   }
 
   .ant-radio-wrapper {
