@@ -2,7 +2,7 @@ input,
 select,
 textarea {
   /* remove box-shaddow for all inputs and select */
-  @apply ring-offset-0 ring-0 shadow-none !important;
+  @apply ring-offset-0 ring-0 shadow-none  ;
 }
 
 /*********** forms style ***********/
@@ -39,7 +39,7 @@ textarea {
     @apply border border-gray-light bg-snowy-main text-black-main w-full h-full rounded transition placeholder:text-gray-light focus:border-blue-main;
 
     &[disabled] {
-      @apply bg-gray-lighter text-black-main cursor-not-allowed !important;
+      @apply bg-gray-lighter text-black-main cursor-not-allowed  ;
     }
   }
 
@@ -50,10 +50,10 @@ textarea {
   .input-error,
   .ant-input-status-error,
   .ant-select-status-error {
-    @apply border-red-400 focus:border-red-400 !important;
+    @apply border-red-400 focus:border-red-400  ;
 
     .ant-select-selector {
-      @apply border-0 !important;
+      @apply border-0  ;
     }
   }
 
@@ -79,7 +79,7 @@ textarea {
       @apply border-transparent;
 
       .ant-select-selector {
-        @apply border-blue-main shadow-none !important;
+        @apply border-blue-main shadow-none  ;
       }
     }
     &.ant-select-disabled .ant-select-selector {
@@ -94,7 +94,7 @@ textarea {
       @apply h-full ml-0;
     }
     .ant-select-selection-search-input {
-      @apply h-full !important;
+      @apply h-full  ;
     }
     .ant-select-selection-placeholder {
       @apply text-gray-light;
@@ -455,7 +455,7 @@ textarea {
     @apply items-center text-base font-regular;
 
     &:hover {
-      @apply bg-gray-lighter !important;
+      @apply bg-gray-lighter  ;
     }
 
     &:before {
@@ -520,7 +520,7 @@ textarea {
     @apply text-snowy-main;
 
     &:hover {
-      @apply bg-transparent text-yellow-main !important;
+      @apply bg-transparent text-yellow-main  ;
     }
 
     &.ant-select-item-option-selected {
