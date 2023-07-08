@@ -1,3 +1,13 @@
+# [1.10.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.9.0...v1.10.0) (2023-07-08)
+
+
+### Features
+
+* bump @vitejs/plugin-react from 4.0.1 to 4.0.2 in /admin ([#64](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/64)) ([2ff49d0](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/2ff49d0a6382dd328331621fd3d984eacc7f8792))
+* bump @vitest/coverage-istanbul from 0.32.4 to 0.33.0 in /admin ([#65](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/65)) ([2b856b1](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/2b856b1886d9e32add1a30f67bb09d5d478966d4))
+* bump postcss from 8.4.24 to 8.4.25 in /admin ([#66](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/66)) ([dc899dc](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/dc899dc0c628d5b3781f10362c539287e0d96d29))
+* bump vite from 4.3.9 to 4.4.1 in /admin ([#63](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/63)) ([5b65707](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/5b657073a02f30560b2aae238ef3ee0ef61b9294))
+
 # [1.9.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.8.0...v1.9.0) (2023-07-06)
 
 
