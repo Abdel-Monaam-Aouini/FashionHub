@@ -1,3 +1,20 @@
+# [1.11.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.10.0...v1.11.0) (2023-07-12)
+
+
+### Features
+
+* bump @prisma/client from 4.16.2 to 5.0.0 in /server ([#80](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/80)) ([ed73085](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/ed73085b0dd7bd726ae3eff9dd0f98795063737c))
+* bump @types/node from 20.4.0 to 20.4.1 in /server ([#69](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/69)) ([44f01c0](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/44f01c03d4caf7cc0a703a862f6124b93099ee2e))
+* bump @typescript-eslint/eslint-plugin from 5.61.0 to 6.0.0 in /admin ([#72](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/72)) ([e2f44ba](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/e2f44badd1914f6622dc1df3c5261d31f9a14d5b))
+* bump @typescript-eslint/parser from 5.61.0 to 5.62.0 in /admin ([#70](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/70)) ([3c17899](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/3c17899a12997b5697b0849ad3828ab9cb634084))
+* bump @typescript-eslint/parser from 5.61.0 to 5.62.0 in /server ([#74](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/74)) ([2f20d42](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/2f20d42f0397a6cde130b58fd3ff33ab00d70ba7))
+* bump @vitejs/plugin-react from 4.0.2 to 4.0.3 in /admin ([#71](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/71)) ([ceabc3e](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/ceabc3ec85616b7dab1d598237b111167973a296))
+* bump antd from 5.6.4 to 5.7.0 in /admin ([#77](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/77)) ([bcd3935](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/bcd3935e29f3d0f7e179933b0fe90925ef595744))
+* bump eslint-plugin-prettier from 4.2.1 to 5.0.0 in /server ([#78](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/78)) ([5690d1d](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/5690d1d3668b255d1a66c6a976fa7a204cd0dbea))
+* bump prisma from 4.16.2 to 5.0.0 in /server ([#79](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/79)) ([f79f069](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/f79f0695d604614e5278b4bf553fb7964d36c9eb))
+* bump vite from 4.4.1 to 4.4.2 in /admin ([#67](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/67)) ([9d87900](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/9d87900738d2c10073fd56916c81459ff9b3cfed))
+* bump vite from 4.4.2 to 4.4.3 in /admin ([#75](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/75)) ([df2fc41](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/df2fc4182467d4ee1c1bd29b8ec696f07a56452c))
+
 # [1.10.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.9.0...v1.10.0) (2023-07-08)
 
 
