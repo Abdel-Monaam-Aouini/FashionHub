@@ -1,3 +1,13 @@
+# [1.12.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.11.0...v1.12.0) (2023-07-13)
+
+
+### Features
+
+* bump @types/node from 20.4.1 to 20.4.2 in /server ([#81](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/81)) ([edf0e4e](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/edf0e4e70ec33abca38af99bab30cceea2a2231c))
+* bump @types/react-dom from 18.2.6 to 18.2.7 in /admin ([#83](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/83)) ([7f98dc3](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/7f98dc3339ceebdb625e5772f7067150de85c7fe))
+* bump @typescript-eslint/parser from 5.62.0 to 6.0.0 in /admin ([#82](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/82)) ([63cb38b](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/63cb38bff82f10a0e57c364a8bd4420b9286f2e9))
+* bump eslint-plugin-prettier from 4.2.1 to 5.0.0 in /admin ([#76](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/76)) ([835503a](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/835503ad4ce4a862541ffab162739d76db2da1b2))
+
 # [1.11.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.10.0...v1.11.0) (2023-07-12)
 
 
