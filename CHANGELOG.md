@@ -1,3 +1,14 @@
+# [1.13.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.12.0...v1.13.0) (2023-07-15)
+
+
+### Features
+
+* bump @tailwindcss/forms from 0.5.3 to 0.5.4 in /admin ([#85](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/85)) ([320f2e4](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/320f2e4212d73e69ad6acee2ac0373fec5b01de1))
+* bump @types/react from 18.2.14 to 18.2.15 in /admin ([#86](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/86)) ([537408c](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/537408ce5a9102f5598be6eebf53097e98cc84da))
+* bump nodemon from 2.0.22 to 3.0.1 in /server ([#68](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/68)) ([823ac4a](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/823ac4a0f573ea23065f39b9a56ca9f940ae7d6d))
+* bump postcss from 8.4.25 to 8.4.26 in /admin ([#84](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/84)) ([8057dfb](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/8057dfbe67d3320d9404d1ef9a5c2e4bcd96f50a))
+* bump tailwindcss from 3.3.2 to 3.3.3 in /admin ([#87](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/87)) ([6d82b52](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/6d82b528bad57f4141991e78360619bece7f826f))
+
 # [1.12.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.11.0...v1.12.0) (2023-07-13)
 
 
