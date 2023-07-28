@@ -51,20 +51,20 @@ jobs:
       - name: generate & seed db
         run: |
           cd server
-          npm i
+          npm i --force
           npx prisma generate
           npx prisma db push
           npm run seed
       - name: linting
         run: |
           cd server
-          npm i
+          npm i --force
           npm run format
           npm run lint
       - name: 👌🏻 Setup and build
         run: |
           cd server
-          npm i
+          npm i --force
           npm run dev &
           npm run test
 
