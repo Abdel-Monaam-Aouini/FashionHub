@@ -1,3 +1,33 @@
+# [1.14.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.13.0...v1.14.0) (2023-07-28)
+
+
+### Features
+
+* bump @types/node from 20.4.2 to 20.4.4 in /server ([#99](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/99)) ([25eda03](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/25eda038d3011821c6065e955e4f2bcf0286a55e))
+* bump @types/node from 20.4.4 to 20.4.5 in /server ([#108](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/108)) ([653f0e6](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/653f0e66351ed63c2bcd634aa840ba76a0fafaf6))
+* bump @types/react from 18.2.15 to 18.2.16 in /admin ([#103](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/103)) ([5943b08](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/5943b084fcd0e0fbd16b26485826780348f53526))
+* bump @types/react from 18.2.16 to 18.2.17 in /admin ([#109](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/109)) ([4b99d32](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/4b99d322d145607439b1639e349686daaedead29))
+* bump @typescript-eslint/eslint-plugin from 6.0.0 to 6.1.0 in /admin ([#91](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/91)) ([a42b76e](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/a42b76ebeb2318e76948d5737a43208f76633deb))
+* bump @typescript-eslint/eslint-plugin from 6.1.0 to 6.2.0 in /admin ([#107](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/107)) ([ebf3d34](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/ebf3d34106e5a9b3ffc7752e278dfda4cccc4848))
+* bump @typescript-eslint/parser from 6.0.0 to 6.1.0 in /admin ([#92](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/92)) ([a1bfbdf](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/a1bfbdf96f216407cd63a845cbe6386bfda125d6))
+* bump @typescript-eslint/parser from 6.1.0 to 6.2.0 in /admin ([#105](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/105)) ([1f79615](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/1f79615aef20caefd98b4c9c1d1f3c856c5fd233))
+* bump antd from 5.7.0 to 5.7.1 in /admin ([#95](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/95)) ([5e26ea1](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/5e26ea1d7f7bc16bf701ef566ebb3b65db458373))
+* bump antd from 5.7.1 to 5.7.2 in /admin ([#96](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/96)) ([ffb8d8b](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/ffb8d8be6bb2af424667ee6413bccb8fa1e85f50))
+* bump antd from 5.7.2 to 5.7.3 in /admin ([#104](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/104)) ([3b312af](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/3b312afd1b36702448d2b97be8e37881079f338e))
+* bump eslint from 8.44.0 to 8.45.0 in /admin ([#89](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/89)) ([742028a](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/742028a24517c66065f03a795ee6eca3bfe89193))
+* bump eslint from 8.44.0 to 8.45.0 in /server ([#88](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/88)) ([861dff2](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/861dff267a06948fa9577145579829416511c852))
+* bump eslint-config-prettier from 8.8.0 to 8.9.0 in /admin ([#110](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/110)) ([40408ef](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/40408efa23cffc97aabefcad5ffcab5fa3523d97))
+* bump eslint-config-prettier from 8.8.0 to 8.9.0 in /server ([#111](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/111)) ([f048c13](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/f048c13d803d1b6f8b81eec054c75f1c36fb3d1b))
+* bump eslint-plugin-react from 7.32.2 to 7.33.0 in /admin ([#98](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/98)) ([95ec1ec](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/95ec1ec98c7b340ecf03abd27244f59a0b8f9d01))
+* bump postcss from 8.4.26 to 8.4.27 in /admin ([#101](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/101)) ([86511d7](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/86511d75360c8f9207034f18a6fd2e6cbc05df56))
+* bump react-router-dom from 6.14.1 to 6.14.2 in /admin ([#93](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/93)) ([8c6a5f0](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/8c6a5f0c2359402772de55fc83bd0d164db59df7))
+* bump sass from 1.63.6 to 1.64.0 in /admin ([#94](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/94)) ([c04ca91](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/c04ca910e23b3c0e96c588215b49432d55784792))
+* bump sass from 1.64.0 to 1.64.1 in /admin ([#102](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/102)) ([e5d1e08](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/e5d1e08c822892451e5ef67527ada49e527f3fc4))
+* bump vite from 4.4.3 to 4.4.4 in /admin ([#90](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/90)) ([3be4071](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/3be4071c2e191ec9e0d5b50501fc6043ca349397))
+* bump vite from 4.4.4 to 4.4.5 in /admin ([#97](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/97)) ([db1f866](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/db1f8669d5f695899d65ce7098f7f01e7a4e4d54))
+* bump vite from 4.4.5 to 4.4.6 in /admin ([#100](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/100)) ([d491772](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/d4917720b61c97f6eb3ea057dd3432df2072fd05))
+* bump vite from 4.4.6 to 4.4.7 in /admin ([#106](https://github.com/Abdel-Monaam-Aouini/FashionHub/issues/106)) ([c8621f4](https://github.com/Abdel-Monaam-Aouini/FashionHub/commit/c8621f413f770201bb1b6d5135998c48b3036001))
+
 # [1.13.0](https://github.com/Abdel-Monaam-Aouini/FashionHub/compare/v1.12.0...v1.13.0) (2023-07-15)
 
 
