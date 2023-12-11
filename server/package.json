@@ -46,7 +46,7 @@
     "prisma": "5.7.0",
     "supertest": "^6.2.4",
     "ts-jest": "^28.0.7",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
 }
