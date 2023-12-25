@@ -40,7 +40,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-prettier": "^5.1.1",
+    "eslint-plugin-prettier": "^5.1.2",
     "jest": "^28.1.1",
     "nodemon": "^3.0.2",
     "prisma": "5.7.1",
