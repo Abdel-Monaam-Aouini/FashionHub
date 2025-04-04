@@ -40,7 +40,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "5.2.5",
     "eslint-plugin-promise": "6.6.0",
-    "eslint-plugin-react": "7.37.4",
+    "eslint-plugin-react": "7.37.5",
     "postcss": "^8.5.3",
     "prettier": "3.5.3",
     "sass": "^1.86.2",
