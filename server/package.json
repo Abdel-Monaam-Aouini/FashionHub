@@ -19,7 +19,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@prisma/client": "5.22.0",
+    "@prisma/client": "6.15.0",
     "cors": "^2.8.5",
     "dotenv": "^16.6.0",
     "express": "^4.21.2",
